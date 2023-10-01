@@ -102,7 +102,7 @@ ol {
   outline: none;
 }
 
-.search-form__label:has(:focus-visible){
+.search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
@@ -132,7 +132,7 @@ ol {
   background-clip: content-box;
 }
 
-.search-form__label:has([type=checkbox]):hover {
+.search-form__label:has([type='checkbox']):hover {
   text-decoration: underline;
 }
 
