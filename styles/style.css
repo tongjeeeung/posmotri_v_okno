@@ -90,12 +90,13 @@ ol {
   width: 225px;
   height: 27px;
   font-size: 18px;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   border: none;
   padding: 0;
   border-top: 1px solid #FFF;
   border-bottom: 1px solid #FFF;
   color: #fff;
+  appearance: none;
 }
 
 .search-form__textfield:focus {
@@ -147,6 +148,7 @@ ol {
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
+  font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 .button:focus {
@@ -187,7 +189,7 @@ ol {
 }
 
 .title {
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 94%;
@@ -217,7 +219,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 100%;
